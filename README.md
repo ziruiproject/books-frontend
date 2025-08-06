@@ -1,6 +1,6 @@
 # Booklist: Web Aplikasi Manajemen Buku
 
-Booklist adalah aplikasi web untuk mengelola daftar buku, penulis, dan kategori. Aplikasi ini memungkinkan pengguna untuk melihat, menambah, memperbarui, dan menghapus data dengan antarmuka yang intuitif dan reaktif.
+Booklist adalah aplikasi web untuk mengelola daftar buku, penulis, dan kategori. Aplikasi ini memungkinkan pengguna untuk melihat, menambah, memperbarui, dan menghapus data dengan antarmuka yang intuitif.
 
 ## ✨ Fitur-Fitur Utama
 
@@ -74,7 +74,7 @@ Aplikasi ini dibangun dengan teknologi modern untuk memastikan performa yang cep
 
 ## 📦 Panduan Instalasi
 
-Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek di lingkungan lokal Anda.
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek di lokal.
 
 ### Prasyarat
 
