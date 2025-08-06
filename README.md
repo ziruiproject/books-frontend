@@ -1,131 +1,172 @@
-# Booklist: Web Aplikasi Manajemen Buku
+# 📚 Booklist — Aplikasi Manajemen Buku Interaktif
 
-Booklist adalah aplikasi web untuk mengelola daftar buku, penulis, dan kategori. Aplikasi ini memungkinkan pengguna untuk melihat, menambah, memperbarui, dan menghapus data dengan antarmuka yang intuitif.
+**Booklist** adalah aplikasi web modern untuk mengelola daftar buku, penulis, dan kategori secara efisien dan menyenangkan.  
+Dilengkapi dengan tampilan UI yang bersih, fitur filtering canggih, dan manajemen data yang powerful! 🚀✨
 
-## ✨ Fitur-Fitur Utama
+---
 
-  - **Manajemen Buku:** Tambah, perbarui, dan hapus data buku dengan detail lengkap seperti judul, deskripsi, penulis, penerbit, dan tanggal publikasi.
-  - **Manajemen Kategori:** Kelola daftar kategori buku dengan mudah.
-  - **Manajemen Penulis:** Kelola daftar penulis buku.
-  - **Daftar Buku Interaktif:** Lihat daftar buku dalam tabel yang dapat disaring dan diurutkan.
-  - **Filter Canggih:** Saring daftar buku berdasarkan kategori, teks (judul, penulis, penerbit), dan rentang tanggal publikasi.
-  - **Otentikasi Pengguna:** Sistem *login* sederhana untuk mengamankan akses ke fitur-fitur manajemen.
+## ✨ Fitur-Fitur Unggulan
 
------
+- 📘 **Manajemen Buku**  
+  Tambah, ubah, dan hapus data buku lengkap: judul, deskripsi, penulis, penerbit, tanggal publikasi.
 
-## 🖼️ Preview
+- 🗂️ **Manajemen Kategori**  
+  Kelola kategori buku dengan mudah.
 
-### Halaman Login
+- 🧑‍💼 **Manajemen Penulis**  
+  Tambah dan kelola daftar penulis buku favoritmu.
 
-Halaman utama untuk masuk ke dalam sistem.
+- 📊 **Daftar Buku Interaktif**  
+  Tabel buku yang bisa diurutkan dan difilter secara real-time.
+
+- 🕵️ **Filter Canggih**  
+  Filter berdasarkan kategori, teks (judul, penulis, penerbit), dan rentang tanggal publikasi.
+
+- 🔐 **Otentikasi Pengguna**  
+  Login sederhana untuk mengamankan fitur manajemen.
+
+---
+
+## 🖼️ Preview Antarmuka
+
+### 🔑 Halaman Login
+Tampilan awal untuk masuk ke sistem.
 ![Login Page](./screenshots/login.png)
 
------
+---
 
-### Daftar Buku
-
-Tampilan utama yang menampilkan semua buku.
+### 📋 Daftar Buku
+Tampilan utama semua buku.
 ![Book List Page](./screenshots/books.png)
 
------
+---
 
-### Filter Buku
+### 🔍 Filter Buku
+Gunakan filter untuk mencari buku sesuai keinginanmu.
+![Books Filter](./screenshots/books-filter.png)
 
-Tampilan saat filter diterapkan.
-![Book List Page](./screenshots/books-filter.png)
+---
 
------
-
-### Tambah Buku Baru
-
-Form untuk menambah buku ke dalam daftar.
+### ➕ Tambah Buku Baru
+Formulir sederhana untuk menambah buku.
 ![Book Add](./screenshots/books-add.png)
 
------
+---
 
-### Perbarui Buku
-
+### 📝 Perbarui Buku
+Edit data buku dengan cepat dan efisien.
 ![Book Update](./screenshots/books-update.png)
 
------
+---
 
-### Daftar Kategori
-
-Halaman untuk mengelola kategori buku.
+### 🗃️ Daftar Kategori
+Kelola semua kategori buku.
 ![Categories List](./screenshots/categories.png)
 
------
+---
 
-### Daftar Penulis
-
-Halaman untuk mengelola penulis buku.
+### ✍️ Daftar Penulis
+Kelola penulis favoritmu di sini.
 ![Authors List](./screenshots/authors.png)
 
------
+---
 
-## 🚀 Teknologi yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
-Aplikasi ini dibangun dengan teknologi modern untuk memastikan performa yang cepat dan pengalaman pengembangan yang baik.
+Project ini dibangun dengan teknologi modern untuk pengalaman development & performa terbaik:
 
-- [SvelteKit](https://kit.svelte.dev/): Framework web untuk membuat UI.
-- [TypeScript](https://www.typescriptlang.org/): Bahasa pemrograman yang menambahkan statictype ke JavaScript.
-- [Tailwind CSS](https://tailwindcss.com/): Framework CSS untuk styling.
-- [Shadcn Svelte](https://www.shadcn-svelte.com/): Kumpulan UI komponen.
+| Teknologi        | Deskripsi                                          |
+|------------------|----------------------------------------------------|
+| 🧠 SvelteKit      | Framework web modern untuk membangun UI cepat      |
+| 🔤 TypeScript     | Superset JavaScript dengan type-safety            |
+| 🎨 Tailwind CSS   | Utility-first CSS framework untuk styling cepat    |
+| 🧱 Shadcn Svelte  | Kumpulan komponen UI siap pakai berbasis Tailwind |
 
-## 📦 Panduan Instalasi
+---
 
-Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek di lokal.
+## 🚀 Cara Instalasi & Menjalankan
 
-### Prasyarat
+### 📋 Prasyarat
 
-Pastikan Anda sudah menginstal:
+Pastikan sudah terpasang:
 
-  - [Node.js](https://nodejs.org/) atau [Bun](https://bun.com/)
-  - [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io/), atau [bun](https://bun.com/)
-  - Akses ke API backend yang sudah berjalan (asumsi Anda memiliki backend Go di `localhost:8000`).
+- [Node.js](https://nodejs.org/) atau [Bun](https://bun.sh/)
+- Salah satu package manager: `npm`, `pnpm`, atau `bun`
+- Backend API aktif (contohnya backend Go di `http://localhost:8000`)
 
-### Langkah-langkah
+---
 
-1.  **Clone Repositori:**
+### 🧑‍💻 Langkah-langkah Setup
 
-    ```bash
-    git clone https://github.com/ziruiproject/books-frontend.git
-    cd books-frontend
-    ```
+1. **Clone repositori**
 
-2.  **Instal Dependensi Frontend:**
+```bash
+git clone https://github.com/ziruiproject/books-frontend.git
+cd books-frontend
+````
 
-    ```bash
-    # Menggunakan npm
-    npm install
+2. **Install dependensi**
 
-    # Atau menggunakan pnpm
-    pnpm install
+```bash
+# Menggunakan npm
+npm install
 
-    # Atau menggunakan bun
-    bun install
-    ```
+# atau pnpm
+pnpm install
 
-3.  **Jalankan Aplikasi:**
-    Jalankan server pengembangan SvelteKit.
+# atau bun
+bun install
+```
 
-    ```bash
-    # Menggunakan npm
-    npm run dev
+3. **Jalankan aplikasi frontend**
 
-    # Menggunakan bun
-    bun run dev
-    ```
+```bash
+# Dengan npm
+npm run dev
 
-    Aplikasi akan tersedia di `http://localhost:5173`.
+# atau dengan bun
+bun run dev
+```
 
------
+🎉 Aplikasi bisa diakses di `http://localhost:5173`
 
-## 📝 Penggunaan Aplikasi
+---
 
--   **Login:** Buka aplikasi di browser, masukkan kredensial berikut, dan klik tombol `Login`.
-    -   **Email:** `sa@test.com`
-    -   **Password:** `rahasia123`
--   **Melihat Daftar:** Navigasi ke halaman **Books** untuk melihat daftar buku, atau halaman **Categories** untuk melihat daftar kategori.
--   **Filter:** Gunakan kolom pencarian dan *dropdown* di halaman **Books** untuk memfilter daftar berdasarkan judul, penulis, penerbit, atau kategori.
--   **Tambah/Edit:** Gunakan tombol `Add Book` atau tombol pensil di samping setiap buku untuk menambah atau memperbarui data.
+## 🔐 Kredensial Login (Demo)
+
+Gunakan akun demo berikut untuk masuk ke dalam sistem:
+
+```txt
+Email    : sa@test.com
+Password : rahasia123
+```
+
+---
+
+## 🧭 Navigasi & Penggunaan
+
+* 🔐 **Login** → Masuk ke sistem dengan kredensial di atas.
+* 📚 **Books** → Lihat, filter, tambah, dan edit daftar buku.
+* 🗃️ **Categories** → Kelola kategori buku.
+* ✍️ **Authors** → Kelola daftar penulis.
+
+Gunakan filter dan pencarian untuk mempersempit daftar sesuai keinginanmu 🔍
+
+---
+
+## 💡 Tips Tambahan
+
+* ⏱️ Gunakan **live reload** dari SvelteKit untuk development cepat.
+* 🌈 Ubah styling dengan **Tailwind** di `app.css`.
+* 🔗 Pastikan koneksi ke backend stabil untuk interaksi optimal.
+
+---
+
+## 📬 Kontribusi
+
+Pull request & issue sangat welcome! 🎉
+Kalau kamu suka dengan project ini, kasih ⭐ dong di repo ini atau repo [backend-nya](https://github.com/ziruiproject/books-backend) ❤️
+
+---
+
+> Dibuat dengan ☕ dan semangat open source oleh [Yudha Sugiharto](https://github.com/ziruiproject)
